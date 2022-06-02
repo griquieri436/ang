@@ -1,1 +1,461 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    font-family:"Open Sans",sans-serif;
+    font-size: 16px;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    /* background-color: #ccc; */
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    font-size: 34px;
+    line-height:34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: orange;
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+   
+}
+
+/*---- ----nav ---- ----*/
+#menu{
+    background-color: #387bea;
+    height:75px;
+    width: 100%;
+    align-items: center;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.651);
+}
+
+#menu-items{
+    list-style: none;
+    margin-left:30px;
+}
+
+#menu-items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+#menu-items li a{
+    padding: 9px 13px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ccc;
+
+}
+
+#menu-items li a:hover{
+    background-color: rgba(0, 0, 0, 0.37);
+    transition: .4s;
+}
+
+/*---- ---- header---- ----*/
+
+header {
+    background: url('../src/assets/pexels-luis-gomes-546819.jpg') #035d819f;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    height: 28em;
+    
+}
+
+header .contenedor-textos{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+
+}
+
+header .contenedor-textos .texto{
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 6px;
+    display: inline-block;
+    text-align: center;
+    padding:25px 60px;
+    background-color: rgba(0, 0, 0, 0.37);
+    margin-top: 3em;
+}
+
+header .contenedor-textos .texto h1,
+header .contenedor-textos .texto h2 {
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+
+header .contenedor-textos .texto .nombre {
+    margin-bottom: 40px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+header .contenedor-textos .texto .profesion{
+    font-size: 35px;
+    line-height: 25px;
+}
+
+/* .nav-section{
+    background-color: #387bea;
+    padding:8px;
+    border-top: 2px solid orange;
+    width:100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.418);
+    margin-bottom: 30px;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    outline: none;
+    border:0;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-section a:hover{
+    color: orange;
+}
+
+button:hover{
+    color: orange;
+}
+.logoap{
+    width: 100%;
+    margin-top: -15px;
+}
+
+.checkbtn{
+    font-size:30px;
+    color: #fff;
+    float:right;
+    line-height:80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+#btncheck{display: none;}
+#nav-menu-dos{display: none;} */
+
+/*---- ---- SOBRE MI ---- ----*/
+
+.sobre-mi .contenedor{
+    overflow: visible;
+}
+
+.sobre-mi{
+    text-align: center;
+}
+
+.sobre-mi .contenedor .foto{
+    margin-top: -60px;
+}
+.sobre-mi .contenedor .foto img{
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.514)
+}
+.sobre-mi .contenedor .texto{
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    width:80%;
+    margin: 40px auto 60px auto;
+}
+
+
+/*---- ---- ESTUDIOS ---- ----*/
+
+.estudios{
+    background-color:#f2f2f2;
+    padding-bottom:50px;
+}
+
+.descripcion-estudio{
+    display: grid;
+    grid-template-columns: 200px 800px;
+}
+
+.tit-est{
+    text-align: center;
+    font-weight: 600;
+    font-size:20px;
+}
+
+.des-est{
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/*---- ---- Trabajos ---- ----*/
+
+.trabajos .contenedor{
+    overflow: hidden;
+}
+
+.trabajos .contenedor .contenedor-trabajos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+
+/*---- ---- HABILIDADES ---- ----*/
+#habilidades{
+    background-color:#f2f2f2;
+    padding-bottom:50px;
+}
+
+#barra-exp{
+    margin: auto;
+}
+#tit-exp{
+    margin: auto;
+    font-weight: bold;
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+/*---- ---- HABILIDADES ---- ----*/
+#img-work{
+    max-width:200px;
+    min-width: 80px;
+    border-radius: 5px;
+    border: 3px solid #387bea;
+    margin: 15px;
+}
+
+#cont-works{
+    padding-bottom: 50px;
+}
+
+/*---- ---- Contacto ---- ----*/
+
+.contacto{
+    background-color:#f2f2f2;
+    padding: 60px 0;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #a4a4a4;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"]{
+    width:49%;
+    margin-bottom: 15px;
+}
+.formulario textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.boton{
+    margin:auto;
+    background: #3895ea;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding:15px 40px;
+    cursor:pointer;
+}
+
+.boton:hover{
+    background: #387bea;
+}
+
+
+
+
+/*---- ---- FOOTER ---- ----*/
+
+footer{
+    background-color: #387bea;
+    padding: 20px 0;
+}
+
+footer .contenedor{
+    display: flex; 
+    justify-content: center;
+}
+
+footer .contenedor a{
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+.facebook:hover {
+    background-color: #fff;
+    color:#1877f2;
+}
+
+.git:hover {
+    background-color: #333;
+    color:#f5f5f5;
+}
+
+.twit:hover {
+    background-color: #1da1f2;
+    color:#f5f8fa;
+}
+
+.instagram:hover {
+    background-color: #c13584;
+}
+
+.gmail:hover {
+    background-color: #34a853;
+}
+
+.to-nav:hover {
+    background-color: #22447c;
+}
+
+/*---- ---- MEDIA QUERIS ---- ----*/
+@media screen and (max-width: 800px) {
+
+    .trabajos .contenedor .contenedor-trabajos .trabajo{
+        width: 60%;
+    }
+    .trabajos .contenedor .contenedor-trabajos{
+        justify-content:center;
+    }
+    /* header {
+        height: 25em;   
+    } */
+
+    header .contenedor-textos .texto .nombre {
+        margin-bottom: 1em;
+    }
+    /*---- ---- ESTUDIOS ---- ----*/
+    .descripcion-estudio{
+        display: block;
+        justify-content:center;
+    }
+
+    .tit-est{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .formulario input[type="text"],
+    .formulario input[type="email"]{
+        width:100%;
+        margin-bottom: 15px;
+    }
+
+    .logoap{
+        width: 100px;
+        
+    }
+
+    #img-work{
+        max-width:150px;
+        min-width: 80px;
+        border-radius: 5px;
+        border: 3px solid #387bea;
+        margin: 15px;
+    }
+
+    
+}
+
+@media screen and (max-width: 760px){
+
+    header .contenedor-textos .texto .nombre {
+        font-size: 35px;
+        margin-bottom: 2rem;
+    }
+    
+    header .contenedor-textos .texto .profesion{
+        font-size: 25px;
+    }
+
+    header {
+        height: 30em;   
+    }
+
+    .nav-section{
+        width:100%;
+    }
+
+    .trabajos .contenedor .contenedor-trabajos .trabajo{
+        width: 80%;
+    }
+    
+    .logoap{
+        width: 150%;
+        margin-top: 0px;
+    }
+
+    #img-work{
+        max-width:150px;
+        min-width: 80px;
+        border-radius: 5px;
+        border: 3px solid #387bea;
+        margin: 15px;
+    }
+
+}
+
+#contenedor{
+    width: 90%;
+    max-width: 1000px;
+    color: #ccc;
+    margin: auto;
+}
+
