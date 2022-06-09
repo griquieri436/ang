@@ -1,0 +1,47 @@
+{
+    "nombre":"Gabriel Esteban Riquieri Castro",
+    "profesion":"Full Stack Developer JR",
+    "about":"desarrollo del sobre mí",
+    "education":[{
+        "titulo":"acá va el titulo",
+        "fecha":"11/22/2xxx",
+        "desarrollo":"Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+    },{
+        "titulo":"acá va el titulo2",
+        "fecha":"11/22/2xxx",
+        "desarrollo":"Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.o"
+    },{
+        "titulo":"acá va el titulo3",
+        "fecha":"11/22/2xxx",
+        "desarrollo":"Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+    }],
+    "cursos":"descripcion del curso",
+    "idiomas":{
+        "idioma":"ingles",
+        "nivel":"avanzado"
+    },
+    "skills":{
+        "titulo":"HTML5",
+        "avance":"75"
+    },
+    "proyectos":[{
+        "titulo":"CV-primero",
+        "descripcion":"lorem4000",
+        "img":"url"
+    },{
+        "titulo":"CV-segundo",
+        "descripcion":"lorem4000",
+        "img":"url"
+    },{
+        "titulo":"CV-tercero",
+        "descripcion":"lorem4000",
+        "img":"url"
+    }],
+    "social-media":{
+        "facebook":"#",
+        "instagram":"#",
+        "twitter":"#",
+        "github":"#",
+        "linkedin":"#"
+    }
+}

@@ -3,25 +3,21 @@
     <h3 class="titulo">Estudios</h3>
 
     <div class="estudio-contenedor">
-      <!--estudio-->
-      <div class="descripcion-estudio">
+      <div class="descripcion-estudio" *ngFor="let education of educationList">
         <div>
-          <h4 class="tit-est">Título</h4>
-          <p class="tit-est">(year)</p>
+          <h4 class="tit-est">{{ education.titulo }}</h4>
+          <p class="tit-est">{{ education.fecha }}</p>
         </div>
         <p class="des-est">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
-          libero, doloremque nostrum ea molestiae qui nam rem quasi maiores
-          ipsam distinctio a vel laboriosam veritatis eum illum quae. Minima
-          veniam, odio sed facere, vitae quisquam possimus voluptatum iure,
-          officia porro neque exercitationem mollitia quam illo repellendus?
+          {{ education.desarrollo }}
         </p>
-      </div>
-      <div class="row">
-        <div class="col d-flex justify-content-end">
-          <button class="btn">
-            <i class="bi bi-pencil-fill"></i>
-          </button>
+        <br />
+        <div class="row">
+          <div class="col d-flex justify-content-end">
+            <button class="btn">
+              <i class="bi bi-pencil-fill"></i>
+            </button>
+          </div>
         </div>
       </div>
     </div>
